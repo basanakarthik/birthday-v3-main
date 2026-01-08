@@ -17,7 +17,7 @@ export default function PhotosScreen({ onNext }) {
     "/images/2.jpg",
     "/images/3.jpg",
     "/images/4.jpg",
-  ].map((p) => `${basePath}${p}`)
+  ]
 
   return (
     <div className="px-4 md:px-6 py-10">
