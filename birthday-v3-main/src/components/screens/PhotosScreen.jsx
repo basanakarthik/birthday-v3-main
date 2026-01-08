@@ -41,15 +41,15 @@ export default function PhotosScreen({ onNext }) {
             grabCursor
             modules={[EffectCards]}
             onSwiper={(sw) => (swiperRef.current = sw)}
-            className="w-[280px] h-[420px] md:w-[340px] md:h-[460px]"
+            className="w-[280px] md:w-[340px] aspect-[3/5]"
           >
             {photos.map((src, i) => (
               <SwiperSlide key={i}>
-                <div className="h-full w-full rounded-2xl">
+                <div className="relative w-full h-full rounded-2xl overflow-hidden">
                   <img
                     src={src}
                     alt={`Memory ${i + 1}`}
-                    className="h-full w-full rounded-xl object-cover"
+                    className="absolute inset-0 w-full h-full object-cover"
                   />
                 </div>
               </SwiperSlide>
