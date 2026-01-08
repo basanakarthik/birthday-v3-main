@@ -32,7 +32,7 @@ export default function MessageScreen({ onNext }) {
                         you make people feel truly cared for. I hope your day is filled with laughter, surprises, and moments that
                         make your heart happy. You’re truly one of a kind, and I just want you to know how special you are.
                         Keep being the amazing person you are, spreading joy wherever you go. Wishing you endless happiness,
-                        success, and all the sweet things life has to offer. 💗
+                        success, and all the sweet things life has to offer to U💗.
                     </p>
                 </motion.div>
             </div>
