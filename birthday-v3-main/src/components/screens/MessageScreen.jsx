@@ -33,7 +33,6 @@ export default function MessageScreen({ onNext }) {
                         make your heart happy. You’re truly one of a kind, and I just want you to know how special you are.
                         Keep being the amazing person you are, spreading joy wherever you go. Wishing you endless happiness,
                         success, and all the sweet things life has to offer. 💗
-                        Keep being the amazing person you are, spreading joy wherever you go. Wishing you endless happiness,
                     </p>
                 </motion.div>
             </div>
